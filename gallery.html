@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Галерея работ | Auto Motors</title>
+    <meta name="description" content="Галерея Auto Motors: до и после ремонта, сервисная зона, оборудование и выполненные работы." />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">AM</span><span><strong>Auto Motors</strong><small>Service Center</small></span></a>
+      <button class="nav-toggle" type="button" aria-label="Открыть меню" aria-expanded="false"><i data-lucide="menu"></i></button>
+      <nav class="site-nav" aria-label="Основная навигация"><a href="index.html" data-page="home">Главная</a><a href="services.html" data-page="services">Услуги</a><a href="about.html" data-page="about">О нас</a><a href="gallery.html" data-page="gallery">Галерея</a><a href="contacts.html" data-page="contacts">Контакты</a></nav>
+      <a class="header-call" href="tel:+79990000000"><i data-lucide="phone"></i> +7 999 000-00-00</a>
+    </header>
+    <main data-page="gallery">
+      <section class="page-hero gallery-hero"><div class="container reveal"><p class="eyebrow">Наши работы</p><h1>Результаты, которые видно с первого взгляда</h1><p>Ремонт, обслуживание, оборудование и аккуратная сервисная зона.</p></div></section>
+      <section class="section">
+        <div class="container gallery-grid">
+          <figure class="gallery-item tall reveal"><img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=900&q=80" alt="Ремонт автомобиля в сервисе" /><figcaption>Диагностика двигателя</figcaption></figure>
+          <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=900&q=80" alt="Премиальный автомобиль после обслуживания" /><figcaption>После полировки</figcaption></figure>
+          <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80" alt="Спортивный автомобиль" /><figcaption>Подготовка к сезону</figcaption></figure>
+          <figure class="gallery-item wide reveal"><img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=1200&q=80" alt="Автомобиль на дороге после ремонта" /><figcaption>Контрольная проверка</figcaption></figure>
+          <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1507136566006-cfc505b114fc?auto=format&fit=crop&w=900&q=80" alt="Сервисное оборудование" /><figcaption>Оборудование</figcaption></figure>
+          <figure class="gallery-item reveal"><img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?auto=format&fit=crop&w=900&q=80" alt="Автомобиль в детейлинге" /><figcaption>Детейлинг кузова</figcaption></figure>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="container footer-grid"><div><strong>Auto Motors</strong><p>Ремонт, который выглядит так же аккуратно, как работает.</p></div><div><span>Телефон</span><a href="tel:+79990000000">+7 999 000-00-00</a></div><div><span>WhatsApp</span><a href="https://wa.me/79990000000">Написать</a></div><div><span>Адрес</span><p>Москва, ул. Автомобильная, 12</p></div></div></footer>
+  </body>
+</html>

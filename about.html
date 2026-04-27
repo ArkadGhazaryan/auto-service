@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>О нас | Auto Motors</title>
+    <meta name="description" content="Auto Motors: современный автосервис с опытными мастерами, профессиональным оборудованием и гарантией качества." />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark">AM</span><span><strong>Auto Motors</strong><small>Service Center</small></span></a>
+      <button class="nav-toggle" type="button" aria-label="Открыть меню" aria-expanded="false"><i data-lucide="menu"></i></button>
+      <nav class="site-nav" aria-label="Основная навигация"><a href="index.html" data-page="home">Главная</a><a href="services.html" data-page="services">Услуги</a><a href="about.html" data-page="about">О нас</a><a href="gallery.html" data-page="gallery">Галерея</a><a href="contacts.html" data-page="contacts">Контакты</a></nav>
+      <a class="header-call" href="tel:+79990000000"><i data-lucide="phone"></i> +7 999 000-00-00</a>
+    </header>
+    <main data-page="about">
+      <section class="page-hero about-hero"><div class="container reveal"><p class="eyebrow">О компании</p><h1>Автосервис, где к машине относятся как к инвестиции</h1><p>Мы объединяем инженерный подход, аккуратную коммуникацию и премиальный уровень сервиса.</p></div></section>
+      <section class="section">
+        <div class="container split">
+          <div class="reveal"><p class="eyebrow">История</p><h2>Более 10 лет ремонтируем автомобили без компромиссов</h2><p class="muted">Auto Motors вырос из небольшой мастерской в полноценный сервисный центр. Сегодня у нас отдельные зоны диагностики, ремонта, шиномонтажа и детейлинга, современное оборудование и команда мастеров, которые регулярно повышают квалификацию.</p></div>
+          <div class="stats-panel reveal"><div><strong>10+</strong><span>лет опыта</span></div><div><strong>8 500+</strong><span>обслуженных авто</span></div><div><strong>97%</strong><span>клиентов рекомендуют</span></div></div>
+        </div>
+      </section>
+      <section class="section section-steel">
+        <div class="container image-grid">
+          <div class="photo-tile service-photo reveal"></div>
+          <div class="photo-tile masters-photo reveal"></div>
+          <div class="why-card reveal"><p class="eyebrow">Почему выбирают нас</p><h2>Чистая зона ремонта, понятные процессы, сильная команда</h2><ul class="check-list"><li>Показываем состояние узлов до ремонта</li><li>Работаем по согласованной смете</li><li>Используем качественные запчасти и расходники</li><li>Храним историю обслуживания автомобиля</li></ul></div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container cert-grid">
+          <article class="cert-card reveal"><i data-lucide="award"></i><h3>Сертификаты</h3><p>Оборудование и материалы от проверенных поставщиков, обучение мастеров и контроль качества.</p></article>
+          <article class="cert-card reveal"><i data-lucide="shield-check"></i><h3>Гарантия качества</h3><p>Даем гарантию на выполненные работы и фиксируем рекомендации после диагностики.</p></article>
+          <article class="cert-card reveal"><i data-lucide="clipboard-check"></i><h3>Прозрачный отчет</h3><p>После обслуживания вы получаете список работ, использованных материалов и замечаний.</p></article>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="container footer-grid"><div><strong>Auto Motors</strong><p>Премиальный сервисный центр полного цикла.</p></div><div><span>Телефон</span><a href="tel:+79990000000">+7 999 000-00-00</a></div><div><span>График</span><p>Ежедневно 09:00-21:00</p></div><div><span>Адрес</span><p>Москва, ул. Автомобильная, 12</p></div></div></footer>
+  </body>
+</html>
